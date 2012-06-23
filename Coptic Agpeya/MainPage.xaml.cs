@@ -23,7 +23,32 @@ namespace Coptic_Agpeya
 
         private void Prime_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Prime.xaml", UriKind.Relative)); ;
+            NavigationService.Navigate(new Uri("/Prime.xaml", UriKind.Relative)); 
+        }
+
+        private void Terce_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Terce.xaml", UriKind.Relative)); 
+        }
+
+        private void Sext_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Sext.xaml", UriKind.Relative)); 
+        }
+
+        private void None_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/None.xaml", UriKind.Relative)); 
+        }
+
+        private void Vespers_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Vespers.xaml", UriKind.Relative)); 
+        }
+
+        private void Compline_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Compline.xaml", UriKind.Relative)); 
         }
 
        

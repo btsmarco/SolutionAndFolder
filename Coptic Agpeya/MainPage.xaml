@@ -28,13 +28,13 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Image HorizontalAlignment="Left" Margin="227,211,0,0" Name="image1" Stretch="Fill" Source="Candle.jpg" Width="284"  Height="428"/>
-            <Button Foreground="White" FontSize="40" BorderBrush="Transparent" Content="Prime" Height="89" HorizontalAlignment="Left" Name="Prime" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Prime_Click" />
-            <Button Foreground="White" BorderBrush="Transparent" Content="Terce" FontSize="40" Height="89" HorizontalAlignment="Left" Margin="0,95,0,0" Name="Terce" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
-            <Button Foreground="White" BorderBrush="Transparent" Content="Sext" FontSize="40" Height="89" HorizontalAlignment="Left" Margin="0,190,0,0" Name="Sext" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
-            <Button Foreground="White" BorderBrush="Transparent" Content="None" FontSize="40" Height="89" HorizontalAlignment="Left" Margin="0,285,0,0" Name="None" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
-            <Button Foreground="White" BorderBrush="Transparent" Content="Vespers" FontSize="40" Height="89" HorizontalAlignment="Left" Margin="0,380,0,0" Name="Vespers" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
-            <Button Foreground="White" BorderBrush="Transparent" Content="Compline" FontSize="40" Height="89" HorizontalAlignment="Left" Margin="0,475,0,0" Name="Compline" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
-            <Button Foreground="White" BorderBrush="Transparent" Content="Midnight" FontSize="40" Height="89" HorizontalAlignment="Left" Margin="0,550,0,0" Name="Midnight" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
+            <Button Foreground="White" FontSize="38" BorderBrush="Transparent" Content="Prime" Height="85" HorizontalAlignment="Left" Name="Prime" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Prime_Click" />
+            <Button Foreground="White" BorderBrush="Transparent" Content="Terce" FontSize="38" Height="85" HorizontalAlignment="Left" Margin="0,91,0,0" Name="Terce" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Terce_Click" />
+            <Button Foreground="White" BorderBrush="Transparent" Content="Sext" FontSize="38" Height="85" HorizontalAlignment="Left" Margin="0,182,0,0" Name="Sext" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Sext_Click" />
+            <Button Foreground="White" BorderBrush="Transparent" Content="None" FontSize="38" Height="85" HorizontalAlignment="Left" Margin="0,273,0,0" Name="None" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="None_Click" />
+            <Button Foreground="White" BorderBrush="Transparent" Content="Vespers" FontSize="38" Height="85" HorizontalAlignment="Left" Margin="0,364,0,0" Name="Vespers" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Vespers_Click" />
+            <Button Foreground="White" BorderBrush="Transparent" Content="Compline" FontSize="38" Height="85" HorizontalAlignment="Left" Margin="0,455,0,0" Name="Compline" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Compline_Click" />
+            <Button Foreground="White" BorderBrush="Transparent" Content="Midnight" FontSize="38" Height="85" HorizontalAlignment="Left" Margin="0,546,0,0" Name="Midnight" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
         </Grid>
     </Grid>
  
