@@ -19,37 +19,65 @@ namespace Coptic_Agpeya
         public MainPage()
         {
             InitializeComponent();
+            
         }
 
         private void Prime_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Prime.xaml", UriKind.Relative)); 
+            NavigationService.Navigate(new Uri("/Text/Prime.xaml", UriKind.Relative)); 
         }
 
         private void Terce_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Terce.xaml", UriKind.Relative)); 
+            NavigationService.Navigate(new Uri("/Text/Terce.xaml", UriKind.Relative)); 
         }
 
         private void Sext_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Sext.xaml", UriKind.Relative)); 
+            NavigationService.Navigate(new Uri("/Text/Sext.xaml", UriKind.Relative)); 
         }
 
         private void None_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/None.xaml", UriKind.Relative)); 
+            NavigationService.Navigate(new Uri("/Text/None.xaml", UriKind.Relative)); 
         }
 
         private void Vespers_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Vespers.xaml", UriKind.Relative)); 
+            NavigationService.Navigate(new Uri("/Text/Vespers.xaml", UriKind.Relative)); 
         }
 
         private void Compline_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Compline.xaml", UriKind.Relative)); 
+            NavigationService.Navigate(new Uri("/Text/Compline.xaml", UriKind.Relative)); 
         }
+
+        private void Midnight_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/MidnightDivision.xaml", UriKind.Relative)); 
+        }
+
+        private void Other_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Text/Prayers.xaml", UriKind.Relative)); 
+        }
+
+        private void About(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/about.xaml", UriKind.Relative)); 
+        }
+
+        private void Settings(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Settings.xaml", UriKind.Relative)); 
+        }
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
 
        
     }
