@@ -9,7 +9,7 @@ using System.Resources;
 [assembly: AssemblyTitle("Coptic_Agpeya")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Arab Money")]
 [assembly: AssemblyProduct("Coptic_Agpeya")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]

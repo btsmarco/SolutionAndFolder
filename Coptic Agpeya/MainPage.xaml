@@ -21,8 +21,8 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock  x:Name="ApplicationTitle" Text="COPTIC AGPEYA" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock  x:Name="PageTitle" Text="home" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock  x:Name="ApplicationTitle" Text="English" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock  x:Name="PageTitle" Text="Coptic Agypeya" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
