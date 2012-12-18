@@ -22,7 +22,12 @@ namespace Coptic_Agpeya
 
         private void FontSizeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-             
+             //To add font functionality here
+      
+
+
+
+            
         }
     }
 }
