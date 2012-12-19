@@ -15,12 +15,47 @@ namespace Coptic_Agpeya
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        // Constructor
+        private Color lightThemeBackground = Color.FromArgb(255, 255, 255, 255);
+        private Color darkThemeBackground = Color.FromArgb(255, 0, 0, 0);
+
+
         public MainPage()
         {
             InitializeComponent();
-            
+
+            DisplayState();
         }
+
+ 
+
+        private void DisplayState()
+        {
+
+
+            SolidColorBrush backgroundBrush = Application.Current.Resources["PhoneBackgroundBrush"] as SolidColorBrush;
+
+            if (backgroundBrush.Color == lightThemeBackground)
+            {
+                VisualStateManager.GoToState(this, "Light", false);
+
+                lightThemeBackground = Color.FromArgb(127, 145, 245, 0);
+                ThemeManager.ToDarkTheme();
+                
+
+
+            }
+            else
+            {
+                Color red=Color.FromArgb(127, 145, 245, 0);
+                VisualStateManager.GoToState(this, "Dark", false);
+                darkThemeBackground = Color.FromArgb(127, 145, 0, 0);
+                ThemeManager.ToLightTheme();
+            }
+        }
+    
+
+
+ 
 
         private void Prime_Click(object sender, RoutedEventArgs e)
         {

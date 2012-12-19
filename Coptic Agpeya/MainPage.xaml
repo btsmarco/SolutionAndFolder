@@ -14,7 +14,7 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
 
-    <Grid x:Name="LayoutRoot" Background="lightblue">
+    <Grid x:Name="LayoutRoot" Background="Transparent">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -31,7 +31,7 @@
         <Grid x:Name="ContentPanel"  Grid.Row="1" Margin="12,0,12,0">
 
             <Image HorizontalAlignment="Left" Margin="99,-34,-115,-260" Name="image1" Stretch="Fill" Visibility="{StaticResource PhoneDarkThemeVisibility}" Source="Candle.png" Width="472"/>
-            <Image HorizontalAlignment="Left" Margin="227,211,0,0" Name="image2" Stretch="Fill" Visibility="{StaticResource PhoneLightThemeVisibility}" Source="praying-hands.png" Width="284"  Height="428"/>
+            <Image HorizontalAlignment="Left" Margin="247,180,-75,-41" Name="image2" Stretch="Fill" Visibility="{StaticResource PhoneLightThemeVisibility}" Source="praying-hands.png" Width="284"  Height="428"/>
             <ScrollViewer>
                 <StackPanel Margin="12,0,0,0" >
                     <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  FontSize="38" BorderBrush="Transparent" Content="Prime" Height="85" HorizontalAlignment="Left" Name="Prime" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Prime_Click" />
