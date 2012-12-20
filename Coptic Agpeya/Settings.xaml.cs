@@ -61,7 +61,7 @@ namespace Coptic_Agpeya
             }
             else
             {
-                Color red=Color.FromArgb(127, 145, 245, 0);
+                
                 VisualStateManager.GoToState(this, "Dark", false);
                 darkThemeBackground = Color.FromArgb(127, 145, 0, 0);
                 ThemeManager.ToLightTheme();
