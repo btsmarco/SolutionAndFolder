@@ -15,9 +15,16 @@ namespace Coptic_Agpeya
 {
     public partial class PhonePage1 : PhoneApplicationPage
     {
+
+
+        private Color lightThemeBackground = Color.FromArgb(255, 255, 255, 255);
+        private Color darkThemeBackground = Color.FromArgb(255, 0, 0, 0);
+
+
         public PhonePage1()
         {
             InitializeComponent();
+             
         }
 
         private void FontSizeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -29,5 +36,38 @@ namespace Coptic_Agpeya
 
             
         }
+            
+
+ 
+
+        
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        
+
+
+            SolidColorBrush backgroundBrush = Application.Current.Resources["PhoneBackgroundBrush"] as SolidColorBrush;
+
+            if (backgroundBrush.Color == lightThemeBackground)
+            {
+                VisualStateManager.GoToState(this, "Light", false);
+
+                lightThemeBackground = Color.FromArgb(127, 145, 245, 0);
+                ThemeManager.ToDarkTheme();
+                
+
+
+            }
+            else
+            {
+                Color red=Color.FromArgb(127, 145, 245, 0);
+                VisualStateManager.GoToState(this, "Dark", false);
+                darkThemeBackground = Color.FromArgb(127, 145, 0, 0);
+                ThemeManager.ToLightTheme();
+            }
+        }
+
+        }
     }
-}
+
