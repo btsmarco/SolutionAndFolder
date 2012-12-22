@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using Microsoft.Phone.Tasks;
 
 namespace Coptic_Agpeya
 {
@@ -18,6 +19,33 @@ namespace Coptic_Agpeya
         public Page1()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+   MediaPlayerLauncher objMediaPlayerLauncher = new MediaPlayerLauncher(); 
+
+
+ objMediaPlayerLauncher.Media = new Uri("095-Psalm95.mp3", UriKind.Relative); 
+
+
+ objMediaPlayerLauncher.Location = MediaLocationType.Install; 
+
+
+ objMediaPlayerLauncher.Controls = MediaPlaybackControls.Pause | MediaPlaybackControls.Stop | MediaPlaybackControls.All; 
+
+
+ objMediaPlayerLauncher.Orientation = MediaPlayerOrientation.Landscape; 
+
+
+ objMediaPlayerLauncher.Show(); 
+
         }
 
     }

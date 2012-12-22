@@ -49,7 +49,8 @@
 						        Our Father Who art in heaven; hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread.  And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil, in Christ Jesus our Lord. For Thine is the kingdom, the power and the glory, forever. Amen.
 					        <LineBreak/>
                         </TextBlock>
-                        <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                   
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
                         
 					        <Run Foreground="{StaticResource PhoneAccentBrush}">
  						        THE PRAYER OF THANKSGIVING 
@@ -503,9 +504,18 @@
 
                             Lord receive from us our prayers in this hour and in every hour. Ease our life and guide us to fulfill Your commandments. Sanctify our spirits. Cleanse our bodies. Conduct our thoughts. Purify our intentions. Heal our diseases. Forgive our sins. Deliver us from every evil grief and distress of heart. Surround us by Your holy angels, that, by their camp, we may be guarded and guided, and attain the unity of faith, and the knowledge of Your imperceptible and infinite glory. For You are blessed forever. Amen.
                     </TextBlock>
+                    
                 </StackPanel>
             </ScrollViewer>
         </Grid>
+        <MediaElement HorizontalAlignment="Left" Height="52" Margin="-81,26,0,0" Grid.Row="1" VerticalAlignment="Top" Width="52"/>
+        <Image HorizontalAlignment="Right" Margin="-138,26,566,650" x:Name="image3" Stretch="None" Visibility="{StaticResource PhoneLightThemeVisibility}" Source="MediaBtn.png" Width="52" RenderTransformOrigin="0.5,0.5" Grid.Row="1"/>
+        <Button Content="Play" HorizontalAlignment="Left" Margin="12,42,0,0" VerticalAlignment="Top" Click="Button_Click_2" Width="100"/>
+        
+            
+           
+        
+
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->

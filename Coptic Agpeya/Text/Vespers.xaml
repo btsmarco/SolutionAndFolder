@@ -30,7 +30,7 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <ScrollViewer>
                 <StackPanel Margin="12,0,0,0">
-                    <TextBlock  Width="Auto" Height="Auto" TextWrapping="Wrap">
+                    <TextBlock  Width="auto" Height="Auto" TextWrapping="Wrap">
 					         <Run Foreground="{StaticResource PhoneAccentBrush}">
 						        INTRODUCTION TO EVERY HOUR
 					        </Run>
@@ -298,6 +298,7 @@ Have mercy on us, O God, and have mercy on us, who, at all times and in every ho
 
 Lord receive from us our prayers in this hour and in every hour. Ease our life and guide us to fulfill Your commandments. Sanctify our spirits. Cleanse our bodies. Conduct our thoughts. Purify our intentions. Heal our diseases. Forgive our sins. Deliver us from every evil grief and distress of heart. Surround us by Your holy angels, that, by their camp, we may be guarded and guided, and attain the unity of faith, and the knowledge of Your imperceptible and infinite glory. For You are blessed forever. Amen.
                     </TextBlock>
+                    <MediaElement Height="100" Width="100"/>
                 </StackPanel>
             </ScrollViewer>
         </Grid>
